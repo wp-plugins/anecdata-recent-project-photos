@@ -36,7 +36,7 @@ License: GPL2
 		__('Anecdata Project Photos', 'anecdata_sidebar_photo_widget_domain'), 
 
 		// Widget description
-		array( 'description' => __( 'Recent photos from my Anecdata project', 'anecdata_sidebar_photo_widget_domain' ), ) 
+		array( 'description' => __( 'Recent photos from your Anecdata project', 'anecdata_sidebar_photo_widget_domain' ), ) 
 		);
 		
 		add_action( 'wp_enqueue_scripts', array( $this, 'register_plugin_scripts' ) );
@@ -64,8 +64,7 @@ License: GPL2
 
 		// This is where you run the code and display the output
 		?>
-			<div id="anecdata-recent-photos">
-				
+			<div id="anecdata-recent-photos">				
 				<div class="anecdata-recent-photos-loader">Loading photos...</div>
 			</div>
 			<a href="http://www.anecdata.org/projects/view/<?php echo $instance['project_id']; ?>">Visit the project on Anecdata.org</a>
