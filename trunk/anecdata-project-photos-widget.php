@@ -124,6 +124,8 @@ License: GPL2
 			<label for="<?php echo $this->get_field_id( 'project_id' ); ?>"><?php _e( 'Project ID:' ); ?></label> 
 			<input class="widefat" id="<?php echo $this->get_field_id( 'project_id' ); ?>" name="<?php echo $this->get_field_name( 'project_id' ); ?>" type="text" value="<?php echo esc_attr( $project_id ); ?>" />
 		</p>
+		<p class="description">E.g. "http://www.anecdata.org/projects/view/<strong><u>59</u></strong>".</p>
+		<p class="description">Don't have a project yet? <a href="http://anecdata.org/projects" target = "_blank">Create one now.</a></p>
 		<?php 
 	}
 		
