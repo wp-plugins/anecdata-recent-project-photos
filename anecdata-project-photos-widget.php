@@ -2,7 +2,7 @@
 /*
 Plugin Name: Anecdata Recent Project Photos
 Description: Recent photos from your project on <a href="http://www.anecdata.org">Anecdata.org!</a>
-Version: 1.0.1
+Version: 1.0.2
 Author: Anecdata
 Author URI: http://www.anecdata.org
 License: GPL2
@@ -67,7 +67,19 @@ License: GPL2
 			<div id="anecdata-recent-photos">				
 				<div class="anecdata-recent-photos-loader">Loading photos...</div>
 			</div>
-			<a href="http://www.anecdata.org/projects/view/<?php echo $instance['project_id']; ?>">Visit the project on Anecdata.org</a>
+			<?php 
+				if(!empty($instance['project_id'])){
+			?>
+				<a href="http://www.anecdata.org/projects/view/<?php echo $instance['project_id']; ?>">Visit the project on Anecdata.org</a>
+			<?php
+				} else {
+			?>
+				<a href="http://www.anecdata.org/posts/">Browse all data on Anecdata.org</a>
+			<?php
+				}
+			?>
+			
+			
 			<script>			
 				jQuery(document).ready(function($) {
 					$container = $("#anecdata-recent-photos");

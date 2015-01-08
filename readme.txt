@@ -4,7 +4,7 @@ Donate link: http://www.anecdata.org
 Tags: science, citizen science, environmental science, environment, water quality, data collection, data reporting, sidebar, photos, widget
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,12 @@ Sure! Drop a mesage in the support section and we'll give it our best!
 No screenshots yet!
 
 == Changelog ==
+
+= 1.0.2 =
+* Bugfix
+
+= 1.0.1 =
+* Backend control tweaks.
 
 = 1.0 =
 * Initial release.
