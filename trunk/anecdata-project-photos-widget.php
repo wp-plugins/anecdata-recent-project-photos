@@ -2,7 +2,7 @@
 /*
 Plugin Name: Anecdata Recent Project Photos
 Description: Recent photos from your project on <a href="http://www.anecdata.org">Anecdata.org!</a>
-Version: 1.0
+Version: 1.0.1
 Author: Anecdata
 Author URI: http://www.anecdata.org
 License: GPL2
