@@ -4,7 +4,7 @@ Donate link: http://www.anecdata.org
 Tags: science, citizen science, environmental science, environment, water quality, data collection, data reporting, sidebar, photos, widget
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ Anecdata.org is a citizen science community for the collection of arbitrary, geo
 1. Extract the ZIP to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' page in WordPress.
 3. Go to the Widgets page and place the widget in the sidebar of your choosing.
-4. If you haven't already started a project, go to `http://www.anecdata.org` and start a project.
+4. If you haven't already started a project, go to `http://www.anecdata.org/projects` and start a project.
 5. Go to your project's page. The URL will be look like  ` http://www.anecdata.org/projects/view/59`, where 59 is your project's ID.
 6. Enter this number under "Project ID" on the widget page.
 7. Click "Save". You should be good to go!

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Anecdata Recent Project Photos
 Description: Recent photos from your project on <a href="http://www.anecdata.org">Anecdata.org!</a>
-Version: 1.0.2
+Version: 1.0.3
 Author: Anecdata
 Author URI: http://www.anecdata.org
 License: GPL2
@@ -85,7 +85,7 @@ License: GPL2
 					$container = $("#anecdata-recent-photos");
 					$.ajax({
 						type: "GET",
-						url: 'http://dataportal.nfshost.com/posts.json?images=1&limit=6&callback&project_id=<?php echo $instance['project_id']; ?>',
+						url: 'http://www.anecdata.org/posts.json?images=1&limit=6&callback&project_id=<?php echo $instance['project_id']; ?>',
 						dataType: 'jsonp',
 						async: false,
 						success: function (data) {
